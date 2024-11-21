@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agent Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    
+  
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">TravelBus</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#packages">Our Package</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="banner">
+        <div class="slider">
+            <div class="slide" style="background-image: url('image/1.jpg')">
+                <div class="slide-content">
+                    <h1>Explore Beautiful Destinations</h1>
+                    <p>Your dream vacation starts here</p>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('image/2.avif')">
+                <div class="slide-content">
+                    <h1>Adventure Awaits</h1>
+                    <p>Discover amazing places</p>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('image/21.jpg')">
+                <div class="slide-content">
+                    <h1>Luxury Travel Experience</h1>
+                    <p>Travel in style and comfort</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="packages" class="packages">
+        <h2>Our Packages</h2>
+        <div class="package-container">
+            <div class="package-card">
+                <div class="package-image">
+                    <img src="image/9.jpg" alt="Beach Paradise">
+                    <div class="text-overlay">
+                        <div class="content">
+                            <h3>Beach Paradise</h3>
+                            <p>Enjoy sunny beaches and crystal clear waters</p>
+                            <div class="price">From $999</div>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="package-card">
+                <div class="package-image">
+                    <img src="image/12.jpg" alt="Mountain Adventure">
+                    <div class="text-overlay">
+                        <div class="content">
+                            <h3>Mountain Adventure</h3>
+                            <p>Experience thrilling mountain expeditions</p>
+                            <div class="price">From $1299</div>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="package-card">
+                <div class="package-image">
+                    <img src="image/16.jpg" alt="Cultural Tour">
+                    <div class="text-overlay">
+                        <div class="content">
+                            <h3>Cultural Tour</h3>
+                            <p>Can deliver between cities</p>
+                            <div class="price">From $899</div>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>Let us help plan your perfect trip</p>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" required>
+                    <span class="error" id="nameError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                    <span class="error" id="emailError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="destination">Preferred Destination</label>
+                    <select id="destination" required>
+                        <option value="">Select Destination</option>
+                        <option value="bali">Bali</option>
+                        <option value="paris">Paris</option>
+                        <option value="tokyo">Tokyo</option>
+                        <option value="new-york">New York</option>
+                    </select>
+                    <span class="error" id="destinationError"></span>
+                </div>
+                <button type="submit">Send Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="packages" class="packages">
+        <!-- Previous packages section content remains the same -->
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>TravelBus</h3>
+                <p>Your trusted travel companion</p>
+            </div>
+            <div class="social-media">
+                <h4>More Info</h4>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/alfredopp05/" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                        <span>@alfredopp05</span>
+                    </a>
+                    <a href="https://x.com/Alfredoputra8" target="_blank" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                        <span>@alfredoputra8</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TravelBus. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
